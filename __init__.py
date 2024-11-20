@@ -28,7 +28,7 @@ def meteo():
     return jsonify(results=results)
 
 @app.route("/dino/")
-def mongraphique():
+def dino():
     return render_template("dino.html")
 
 
