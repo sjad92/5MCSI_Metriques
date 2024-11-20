@@ -35,6 +35,10 @@ def dino():
 @app.route("/rapport/")
 def mongraphique():
     return render_template("graphique.html")
+
+@app.route("/form/")
+def form():
+    return render_template("form.html")
   
 if __name__ == "__main__":
   app.run(debug=True)
